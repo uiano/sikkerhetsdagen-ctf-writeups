@@ -1,0 +1,18 @@
+# Required sections
+name: "Stopp meg"
+author: "" # funker ikke legg author inn i description
+category: web
+description: 'Denne siden påstår den skal gi meg et flagg, men jeg får ikke tak i det.
+Kan du hjelpe meg stoppe den ?'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{ikke_noe_problem_aa_stoppe_meg_sant}
+connection_info: "ctf.uiactf.no:3009"
+
+state: visible
+version: "0.1"

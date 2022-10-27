@@ -1,0 +1,25 @@
+# Required sections
+name: "Feriebilde"
+author: "" # funker ikke legg author inn i description
+category: osint
+description: 'Jeg forsøkte å ta et godt bilde til ferieboka mi, 
+men jeg mistenker noe skjedde ettersom bildet ble helt sort. 
+Kan du hjelpe meg finne ut nøyaktig hvor jeg var når bildet ble tatt?
+
+
+Flagg: UIACTF{sted}'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{festningstunnelen}
+    - UIACTF{operatunnelen}
+
+files:
+    - Uploads/hjelp.png
+
+state: visible
+version: "0.1"

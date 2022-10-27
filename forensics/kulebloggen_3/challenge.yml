@@ -1,0 +1,32 @@
+# Required sections
+name: "Kulebloggen #3"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: "Hva er sha1 summen på den skumle filen? Angi som `UIACTF{sha1sum}`"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{b7fe0168d43eb1c8369954e2895b2ec7fd3de3da}
+    - UIACTF{7b4c6e336d988c2151f12e40e4ae8c6d1464c014}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+#files:
+#    - Uploads/file.sh
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

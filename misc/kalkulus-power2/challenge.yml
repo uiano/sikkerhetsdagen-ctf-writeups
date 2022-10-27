@@ -1,0 +1,20 @@
+# Required sections
+name: "Kalkulus fart 2"
+author: "" # funker ikke legg author inn i description
+category: misc
+description:
+    'Kan du bevise at du har lært noe litt mer avansert i kalkulus?
+
+    Løs alle disse (litt) vanskeligere mattematikk stykkene så skal du få en premie!'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{flott_at_du_stoler_paa_all_input}
+connection_info: "ctf.uiactf.no:5002"
+
+state: visible
+version: "0.1"

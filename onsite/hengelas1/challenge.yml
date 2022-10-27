@@ -1,0 +1,17 @@
+# Required sections
+name: "hengelås nivå 1"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Åpne en av de gjennomsikte låsene så får du et flagg.'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{veldig_enkelt_sant}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+state: visible
+version: "0.1"

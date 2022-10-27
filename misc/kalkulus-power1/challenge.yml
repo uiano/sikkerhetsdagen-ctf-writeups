@@ -1,0 +1,21 @@
+# Required sections
+name: "Kalkulus fart 1"
+author: "" # funker ikke legg author inn i description
+category: misc
+description:
+    'Kan du bevise at du har lært noe i kalkulus?
+
+    Løs alle disse mattematikk stykkene så skal du få en premie!'
+
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{speedy_gonzales_numero_uno}
+connection_info: "ctf.uiactf.no:5001"
+
+state: visible
+version: "0.1"

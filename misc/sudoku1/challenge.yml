@@ -1,0 +1,22 @@
+# Required sections
+name: "4x4 Sudoku"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: 'Alle greier nok løse en 4x4 sudoku innen rimelig tid.
+    Men orker du løse 20?
+
+
+    For å submitte korrekt brett tilbake til serveren så sender du det som en string lest tall for tall, rad for rad, fra venstre mot høyre. 
+    Eksempel input: `4321123431422413`'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{løser_soduku_som_om_dette_var_på_barneskolen}
+connection_info: "ctf.uiactf.no:5005"
+
+state: visible
+version: "0.1"

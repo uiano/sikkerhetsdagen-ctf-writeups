@@ -1,0 +1,17 @@
+# Required sections
+name: "hengelås nivå 2"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Åpne en av de "normale" hengelåsene så får du et flagg'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{fortsatt_alt_for_lett}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+state: visible
+version: "0.1"

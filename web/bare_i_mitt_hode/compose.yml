@@ -1,0 +1,7 @@
+services:
+    web:
+        build:
+            context: ./Challenge/
+            dockerfile: Dockerfile
+        ports:
+            - "3001:80"

@@ -1,0 +1,31 @@
+# Required sections
+name: "Kalkulator #2"
+author: "" # funker ikke legg author inn i description
+category: pwn
+description: "Nå er kalkulatoren noe sikrere! `math` er fortsatt støttet da! :D"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{brukerinput er fortsatt farlig å evaluere}
+connection_info: "ctf.uiactf.no:4004"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/passordvelvet
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

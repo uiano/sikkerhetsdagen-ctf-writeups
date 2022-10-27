@@ -1,0 +1,46 @@
+services:
+  kalkulus_power1:
+    build:
+      context: ./kalkulus_power1/Challenge/
+      dockerfile: Dockerfile
+    ports:
+      - "5001:1337"
+  kalkulus_power2:
+    build:
+      context: ./kalkulus_power2/Challenge
+      dockerfile: Dockerfile
+    ports:
+      - "5002:1337"
+  safe-password-generator:
+    build:
+      context: "./safe-password-generator/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "5003:1337"
+
+  simple-password-generator:
+    build:
+      context: "./simple-password-generator/Challenge/"
+      dockerfile: Dockerfile
+    ports:
+      - "5004:1337"
+
+  sudoku1:
+    build:
+      context: "./sudoku1/Challenge/"
+      dockerfile: Dockerfile
+    ports:
+      - "5005:1337"
+
+  sudoku2:
+    build:
+      context: "./sudoku2/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "5006:1337"
+  VaaS:
+    build:
+      context: "./VaaS/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "5007:1337"

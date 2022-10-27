@@ -1,0 +1,23 @@
+# Required sections
+name: "server2-user"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Såå admin la kun inn et gammelt passord i Keepass ja.. Hm, greier du finne hva det har blitt oppdatert til?
+
+Logg inn og hent flagget'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{helt-perfekt-passord-bruk}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+requirements:
+    - "riv den i stykker"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

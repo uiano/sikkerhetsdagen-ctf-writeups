@@ -1,0 +1,29 @@
+# Required sections
+name: "lettvint"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'På dette nettet er det en litt veldig lat "admin" som styrer. 
+Han har gjort ting veldig lett for seg selv, og kan ikke skryte på seg noen god passord policy.
+
+
+Kan du finne noe snadder på gatewayen? (.1)
+
+
+NB: Port 80/443 er out-of-scope.'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{hemmeligheter-i-godt-beskyttet-smb}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+
+requirements:
+    - "pskpskpsk"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

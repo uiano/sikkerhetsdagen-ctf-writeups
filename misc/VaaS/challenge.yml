@@ -1,0 +1,31 @@
+# Required sections
+name: "VaaS"
+author: "" # funker ikke legg author inn i description
+category: misc
+description: "Som innovatorene vi er så hard vi lansert VaaS! (VIM as a Service)!"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{flyktet_fra_vim!}
+connection_info: "ctf.uiactf.no:5007"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/file.sh
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

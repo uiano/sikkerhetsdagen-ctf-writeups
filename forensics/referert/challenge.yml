@@ -1,0 +1,24 @@
+# Required sections
+name: "referert"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: 'Jeg ble refert til en bedrift nylig, og ble med det tilsendt et word dokument.
+Dette er visstnok en test på at jeg greide å benytte meg av sentrale verktøy i bedriften. 
+
+
+Kan du hjelpe meg forstå hva de mente?'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{dette-var-ikke-et-lurt-gjemmested....}
+
+files:
+    - Uploads/jobb_test.docx
+
+
+state: visible
+version: "0.1"

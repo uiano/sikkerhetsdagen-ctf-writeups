@@ -1,0 +1,31 @@
+# Required sections
+name: "Kul webapp #2"
+author: "" # funker ikke legg author inn i description
+category: web
+description: "Da er endelig login system på plass! Registrering kommer snart!"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{passord_i_klartekst_er_ikke_bra}
+connection_info: "ctf.uiactf.no:3005"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

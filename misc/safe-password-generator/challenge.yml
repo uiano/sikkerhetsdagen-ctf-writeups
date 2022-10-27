@@ -1,0 +1,23 @@
+# Required sections
+name: "Sikker passord generator"
+author: "" # funker ikke legg author inn i description
+category: misc
+description:
+    'Viser seg at det var en liten feil i første versjon av min passord generator,
+    ved å legge inn litt mer komplisert generering tror jeg den nå er trygg. 
+    Bare å benytte deg av den nå for å lage passord!'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{two_times_are_one_too_many}
+connection_info: "ctf.uiactf.no:5003"
+
+files:
+    - Uploads/server.py
+
+state: visible
+version: "0.1"

@@ -1,0 +1,19 @@
+# Required sections
+name: "Finn meg"
+author: "" # funker ikke legg author inn i description
+category: web
+description:
+    'Jeg har mistet flagget mitt, den ligger på en eller annen side kan du hjelpe meg finne den?
+    Jeg er gitt opp litt håpet ettersom det virker som det er litt for mange sider å gå gjennom manuelt her.. '
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{godt_gjennomfort_jakt}
+connection_info: "ctf.uiactf.no:3008"
+
+state: visible
+version: "0.1"

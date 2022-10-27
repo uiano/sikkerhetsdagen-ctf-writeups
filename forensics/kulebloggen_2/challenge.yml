@@ -1,0 +1,31 @@
+# Required sections
+name: "Kulebloggen #2"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: "Det ser ut som bruteforce har vært forsøkt, hva var riktig brukernavn og passord kombinasjon? Angi som `UIACTF{brukernavn:passord}`, for eksempel: `UIACTF{ola:nordmann}`"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{admin:qwertyui}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+#files:
+#    - Uploads/file.sh
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

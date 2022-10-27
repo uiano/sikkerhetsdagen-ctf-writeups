@@ -1,0 +1,27 @@
+# Required sections
+name: "server1-root"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Ta full kontroll over serveren : )
+
+
+(ikke ødelegg noe)'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{forbannade_bash_history}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+hints:
+    - 'Som kjent har vi en lat, kanskje ikke så erfaren admin..'
+
+requirements:
+    - "riv den i stykker"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

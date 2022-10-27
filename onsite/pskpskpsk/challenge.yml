@@ -1,0 +1,32 @@
+# Required sections
+name: "pskpskpsk"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Få tilgang til på KOMHACKMEG.
+
+
+Flag: UIACTF{passordet}'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{especial}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+hints:
+    - 'Her er det nødvendig med sniffing av nettet for å fange et handshake. 
+Dersom du ikke har HW som støtter dette kan du åpne hintet for å få en ferdig sniffet fil.'
+    - {
+        content: 'https://drive.google.com/file/d/1aIwGm6CoTn-PwDBNjHggTxYb7ZuzcbLL/view?usp=sharing',
+        cost: 10
+    }
+
+requirements:
+    - "radio jakt"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

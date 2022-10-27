@@ -1,0 +1,31 @@
+# Required sections
+name: "Bare roboter"
+author: "" # funker ikke legg author inn i description
+category: web
+description: "Denne websiden er tilgjengelig bare for roboter, er du robot nok?"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{following the path to robot glory}
+connection_info: "ctf.uiactf.no:3002"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: hidden
+version: "0.1"

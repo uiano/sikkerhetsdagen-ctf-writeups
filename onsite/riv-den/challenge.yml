@@ -1,0 +1,22 @@
+# Required sections
+name: "riv den i stykker"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Det lå også en keepass fil i SMB sharet du fant. 
+Får du revet denne åpen?'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{ikke-no-prob-å-cracke-med-darlig-passord}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+requirements:
+    - "lettvint"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

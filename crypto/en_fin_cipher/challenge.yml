@@ -1,0 +1,31 @@
+# Required sections
+name: "En fin cipher"
+author: "" # funker ikke legg author inn i description
+category: crypto
+description: "Vi tester ut kryptografi og har funnet en fin cipher, kan du knekke dette? `SQFPNB{Uznnz xfd zm bqm pqwlzd, hzm qææz ia iqææzd...}`"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{Dette var en fin cipher, men ikke så sikker...}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+#files:
+#    - Uploads/file.sh
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

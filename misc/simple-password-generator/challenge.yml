@@ -1,0 +1,23 @@
+# Required sections
+name: "Passord generator"
+author: "" # funker ikke legg author inn i description
+category: misc
+description:
+    'Ettersom det er blitt vanskelig å lage gode passord for fremtiden så har jeg laget meg en
+    service jeg kan ta i bruk for å generere gode passord. 
+    Hvis du vil ha et godt passord kan du godt bruke den du også!'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{opsi_dupsi_I_made_an_uuuupsi}
+connection_info: "ctf.uiactf.no:5004"
+
+files:
+    - Uploads/server.py
+
+state: visible
+version: "0.1"

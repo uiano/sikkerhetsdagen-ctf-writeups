@@ -1,0 +1,35 @@
+# Required sections
+name: "Kulturarv"
+author: "" # funker ikke legg author inn i description
+category: osint
+description:
+    "Jeg har vært på en liten tur og besøket noen byer, og samtidigt fått med meg en av norges mest nostalgiske kulturarv. 
+    Fikk også dette av en person med langt hår og skjegg, kan du finne ut hva dette betyr ?
+    ``FFLBYG{doqz_km_fkciw_ejp_xnknydlba_sr_xqloluah}``
+    "
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{kart_er_morro_men_historien_er_viktigst}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/Reiseplan.asm
+
+hints:
+    - \* mumler om at 2FA er viktigt \*
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

@@ -1,0 +1,25 @@
+services:
+  passordvelvet1:
+    build:
+      context: "./passordvelvet1/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "4001:1337"
+  passordvelvet2:
+    build:
+      context: "./passordvelvet2/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "4002:1337"
+  PyJail1:
+    build:
+      context: "./PyJail1/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "4003:1337"
+  PyJail2:
+    build:
+      context: "./PyJail2/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "4004:1337"

@@ -1,0 +1,31 @@
+# Required sections
+name: "Bilde karusell"
+author: "" # funker ikke legg author inn i description
+category: web
+description: "Jeg liker bootstrap sin bilde karusell, gjør ikke du?"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{Usikre direkte objektreferanser}
+connection_info: "ctf.uiactf.no:3003"
+
+#tags:
+#    - esoteric
+#    - web
+
+#files:
+#    - Uploads/intro.js
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

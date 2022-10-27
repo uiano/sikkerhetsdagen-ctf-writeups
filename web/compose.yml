@@ -1,0 +1,43 @@
+services:
+  bare_i_mitt_hode:
+    build:
+      context: "./bare_i_mitt_hode/Challenge/"
+      dockerfile: Dockerfile
+    ports:
+      - "3001:80"
+  bare_roboter:
+    build:
+      context: "./bare_roboter/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "3002:80"
+  bilde_karusell:
+    build:
+      context: "./bilde_karusell/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "3003:80"
+  kul_webapp1:
+    build:
+      context: "./kul_webapp1/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "3004:80"
+  kul_webapp2:
+    build:
+      context: "./kul_webapp2/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "3005:80"
+  kul_webapp3:
+    build:
+      context: "./kul_webapp3/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "3006:80"
+  sertifikatet:
+    build:
+      context: "./sertifikatet/Challenge"
+      dockerfile: Dockerfile
+    ports:
+      - "3007:443"

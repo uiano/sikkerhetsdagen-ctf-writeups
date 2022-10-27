@@ -1,0 +1,31 @@
+# Required sections
+name: "Kulebloggen #1"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: "Vi fikk tilsendt en pcap, kan du bistå i å avdekke hendelsesforløpet? Først, hvilken typen NMAP scan har angriper gjort? Angi flagget som `UIACTF{<kommandolinje for scan typen>}`, for eksempel: `UIACTF{-sU}` for UDP scan"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{-sX}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/kulebloggen.pcap
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

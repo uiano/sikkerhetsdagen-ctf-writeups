@@ -1,0 +1,31 @@
+# Required sections
+name: "Rotete tekst"
+author: "" # funker ikke legg author inn i description
+category: crypto
+description: "Vi fant dette blandt en haug med postit lapper `ODZÅRE{Gqu jz zxapcr elgixd}`, hva kan det være?"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{For et rotete system}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+#files:
+#    - Uploads/file.sh
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

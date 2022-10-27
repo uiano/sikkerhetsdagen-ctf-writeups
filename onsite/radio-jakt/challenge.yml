@@ -1,0 +1,20 @@
+# Required sections
+name: "radio jakt"
+author: "" # funker ikke legg author inn i description
+category: onsite
+description: 'Et eller annet sted på UiA befinner det seg et litt suspekt wifi, hva er navnet?
+
+
+Flagg: UIACTF{WIFINAVN}'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{KOMHACKMEG}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+state: visible
+version: "0.1"

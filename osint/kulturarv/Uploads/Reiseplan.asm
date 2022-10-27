@@ -1,0 +1,11 @@
+; https://www.google.com/maps/dir//58.965788,5.728685000000041
+; https://www.google.com/maps/dir//58.887861,5.647917000000007
+; https://www.google.com/maps/dir//58.847972,5.733694000000014
+; https://www.google.com/maps/dir//58.417999,6.660158000000024
+; https://www.google.com/maps/dir//58.19305,8.07932900000003
+; https://www.google.com/maps/dir//58.622361,8.93116699999996
+; https://www.google.com/maps/dir//58.720417,9.23755600000004
+; https://www.google.com/maps/dir//58.865111,9.596528000000034
+; https://www.google.com/maps/dir//59.190111,9.59080599999993
+; https://www.google.com/maps/dir//59.13515,10.222221999999988
+; https://www.google.com/maps/dir//59.059306,10.40847199999996

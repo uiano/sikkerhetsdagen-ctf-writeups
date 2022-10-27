@@ -1,0 +1,25 @@
+# Required sections
+name: "Tid for Exfil"
+author: "" # funker ikke legg author inn i description
+category: forensics
+description: |
+    'I det siste har jeg sett noe merkelig trafikk på nettverket mitt,
+    og jeg har endelig greid å få fanget opp noe av det.
+
+    Jeg ser ikke helt logikken i det som sendes her ettersom det bare er trafikk en vei,
+    men kanskje noen prøver å sende noe jeg ikke greier å oppdage?
+
+    Kanskje noen ikke har så veldig lang tid igjen og prøver desperat sende av gårde pakkene før de går tomme for tid?'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - uiactf{topp_hemmelig_info_sendt_over_TTL}
+    - UIACTF{topp_hemmelig_info_sendt_over_TTL}
+files:
+    - Uploads/trafikk.pcap
+state: visisble
+version: "0.1"

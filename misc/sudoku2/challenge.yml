@@ -1,0 +1,23 @@
+# Required sections
+name: "9x9 Sudoku"
+author: "" # funker ikke legg author inn i description
+category: misc
+description:
+    'Alle greier nok løse en 9x9 sudoku innen rimelig tid.
+    Men orker du løse 50?
+
+
+    For å submitte korrekt brett tilbake til serveren så sender du det som en string lest tall for tall, rad for rad, fra venstre mot høyre. 
+    Eksempel input: `823697154945231687716845239584162973291473865637958412368724591479516328152389746`'
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{hekta_på_sudoku_som_om_det_var_2004}
+connection_info: "ctf.uiactf.no:5006"
+
+state: visible
+version: "0.1"

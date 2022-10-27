@@ -1,0 +1,29 @@
+# Required sections
+name: "Hvor i verden"
+author: "" # funker ikke legg author inn i description
+category: osint
+description: 'Jeg har vært på litt for mange toppturer i det siste og har helt glemt hvor enkelte bilder kommer fra.
+
+
+Kan du hjelpe meg finne ut hvor jeg var på vei når jeg tok dette bildet?
+
+
+Flag: UIACTF{stedet}'
+
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{glittertind}
+    - UIACTF{Glittertind}
+    - UIACTF{glittertinden}
+    - UIACTF{Glittertinden}
+
+files:
+    - Uploads/glemt_lokasjon.jpeg
+
+state: visible
+version: "0.1"

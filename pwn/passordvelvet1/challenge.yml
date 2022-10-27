@@ -1,0 +1,31 @@
+# Required sections
+name: "Passordvelvet #1"
+author: "" # funker ikke legg author inn i description
+category: pwn
+description: "Vi har lagt et sikkert passordvelv, klarer du å komme deg inn?"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{må være forsiktig med brukerinput}
+connection_info: "ctf.uiactf.no:4001"
+
+#tags:
+#    - esoteric
+#    - web
+
+files:
+    - Uploads/passordvelvet
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: visible
+version: "0.1"

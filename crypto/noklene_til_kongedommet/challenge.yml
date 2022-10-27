@@ -1,0 +1,32 @@
+# Required sections
+name: "Nøklene til kongedømmet"
+author: "" # funker ikke legg author inn i description
+category: crypto
+description: "Det ble fanget noe kryptert tekst på eteren, vi tror en av disse nøklene ble brukt, kan du hjelpe oss med å knekke teksten?"
+value: 1000
+extra:
+    initial: 500
+    decay: 100
+    minimum: 10
+type: dynamic
+flags:
+    - UIACTF{Det er mulig a dele primfaktor}
+#connection_info: "https://chall_name.chall.tghack.no"
+
+#tags:
+#    - esoteric
+#    - misc
+
+files:
+    - Uploads/ciphertext.hex
+    - Uploads/keys.zip
+
+#hints:
+#    - Om du er tilstede fysisk kan du prøve å rope "esoteric", kanskje da får du et hint!
+
+#requirements:
+#    - "Warmup"
+#    - "Are you alive"
+
+state: hidden
+version: "0.1"
